@@ -1,0 +1,393 @@
+#content {
+  height: fit-content;
+}
+
+.watch {
+  display: flex;
+  flex-direction: column;
+  margin-block: 15px;
+}
+
+#watch-design {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: auto;
+  width: 100%;
+  gap: 15px;
+}
+
+#watch-top-section {
+  gap: 15px;
+}
+
+#watch-rating {
+  min-height: 100%;
+  flex: 1;
+}
+
+#watch-design,
+#watch-design-section,
+#watch-rating {
+  gap: 15px;
+}
+
+#watch-reviews {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 100%;
+  gap: 15px;
+}
+
+#watch-design-window {
+  position: relative;
+  width: 100%;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+#watch-design-cover {
+  z-index: 2;
+}
+
+#watch-design-light {
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  opacity: 45%;
+  filter: blur(50px);
+}
+
+#watch-design-cover,
+#watch-design-light {
+  user-select: none;
+  border-radius: 20px;
+  height: 500px;
+}
+
+#watch-design-date,
+#watch-design-views {
+  font-family: SFBOLD;
+  font-size: 14px;
+  color: #b0b0b0;
+  line-height: 18px;
+}
+
+#watch-design-info-block {
+  background-color: #1c1c1c;
+  padding: 20px;
+  border-radius: 20px;
+  gap: 15px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#watch-design-info a {
+  text-decoration: none;
+}
+
+.watch-design-author-block {
+  gap: 4px;
+}
+
+#watch-design-content {
+  gap: 10px;
+}
+
+.watch-design-author-icon {
+  width: 40px;
+  height: 40px;
+}
+
+.watch-design-author,
+.watch-design-author-icon {
+  object-fit: cover;
+  border-radius: 30px;
+}
+
+.watch-design-header {
+  font-family: SFBOLD;
+  font-size: 16px;
+}
+
+.watch-design-author-name {
+  font-size: 14px;
+  font-family: SFMEDIUM;
+  color: rgb(200, 200, 200);
+}
+
+.watch-design-header,
+.watch-design-author-name {
+  line-height: 20px;
+}
+
+#watch-design-bio {
+  border-left: 2px solid #313131;
+  padding-left: 15px;
+  z-index: 1;
+}
+
+#watch-design-bio-text {
+  font-family: SFREGULAR;
+  font-size: 14px;
+  line-height: 1.25em;
+  color: #b6b6b6;
+}
+
+#watch-design-tags {
+  gap: 5px;
+  overflow: hidden;
+  width: 100%;
+  height: fit-content;
+}
+
+.watch-design-tag {
+  background-color: #252525;
+  color: #b0b0b0;
+  font-family: SFMEDIUM;
+  font-size: 14px;
+  user-select: none;
+  cursor: pointer;
+  height: fit-content;
+  box-sizing: border-box;
+  padding-inline: 10px;
+  padding-block: 5px;
+  border-radius: 30px;
+}
+
+/* RATE */
+
+#watch-rating {
+  z-index: 3;
+}
+
+#watch-rate {
+  gap: 15px;
+}
+
+#watch-rates {
+  background-color: #1c1c1c;
+  border-radius: 20px;
+}
+
+.watch-rate-block {
+  padding-block: 15px;
+  gap: 10px;
+  width: 100%;
+}
+
+.watch-rate-header {
+  font-family: SFBOLD;
+  font-size: 16px;
+  color: white;
+}
+
+.watch-rate-crits {
+  gap: 10px;
+  z-index: 1;
+  width: fit-content;
+}
+
+.watch-crits-for-rate {
+  gap: 7px;
+  background-color: rgb(45, 45, 45);
+  border-radius: 30px;
+  padding-inline: 15px;
+}
+
+.watch-rate-crit {
+  font-family: SFMEDIUM;
+  font-size: 14px;
+  color: rgb(200, 200, 200);
+}
+
+.watch-rate-crit-OC {
+  color: rgb(255, 77, 77);
+}
+
+.watch-rate-crit-TI {
+  color: rgb(193, 77, 255);
+}
+
+.watch-rate-crit-total {
+  font-family: SFBOLD;
+  font-size: 24px;
+  color: white;
+}
+
+.watch-rate-crit,
+.watch-rate-crit-total {
+  line-height: 34px;
+}
+
+/* RATER */
+
+#watch-rater {
+  background-color: #1c1c1c;
+  border-radius: 15px;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  height: fit-content;
+  box-sizing: border-box;
+  transition: 0.2s;
+}
+
+#watch-rater-top-section {
+  width: 100%;
+  padding: 20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  box-sizing: border-box;
+}
+
+#watch-rater-top-header {
+  font-family: SFBOLD;
+  font-size: 24px;
+}
+
+.watch-rater-top-buttons {
+  gap: 10px;
+}
+
+.rater-top-button {
+  cursor: pointer;
+  user-select: none;
+}
+
+#watch-rater-secondary,
+#watch-rater-paramount,
+#watch-rater-bottom-section {
+  gap: 25px;
+  padding-inline: 20px;
+  padding-block: 25px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#watch-rater-bottom-section {
+  padding-block: 15px;
+  gap: 15px;
+}
+
+#watch-rater-paramount {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.watch-rater-rate-block {
+  gap: 15px;
+}
+
+.watch-rater-header {
+  width: 100%;
+}
+
+.watch-rater-crit-text {
+  font-size: 16px;
+  font-family: SFMEDIUM;
+}
+
+.watch-rater-range {
+  appearance: none;
+  background-image: linear-gradient(#dcdcdc, #dcdcdc);
+  background-size: 0% 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 7px;
+  background-color: #313131;
+  outline: none;
+  border-radius: 30px;
+  margin: 0;
+}
+
+.watch-rater-range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  background-color: white;
+  border-radius: 30px;
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+}
+
+#watch-rater-total-rate {
+  font-family: SFBOLD;
+  font-size: 38px;
+  color: white;
+}
+
+#watch-rater-total-max {
+  font-family: SFMEDIUM;
+  font-size: 18px;
+  color: rgb(200, 200, 200);
+}
+
+.watch-crits-rater {
+  gap: 7px;
+  background-color: rgb(45, 45, 45);
+  border-radius: 30px;
+  padding-inline: 15px;
+  width: fit-content;
+}
+
+#watch-rater-rating {
+  gap: 10px;
+}
+
+#watch-rater-public-button {
+  gap: 5px;
+}
+
+#watch-rater-review-create {
+  padding: 20px;
+  gap: 15px;
+}
+
+.watch-rater-review-block {
+  gap: 10px;
+}
+
+#watch-rater-review-text {
+  height: 100px;
+  resize: none;
+}
+
+.watch-rater-review-input {
+  background-color: #1c1c1c;
+  border: 1px solid #313131;
+  border-radius: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  font-family: SFREGULAR;
+  font-size: 14px;
+  color: white;
+  outline: none;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#no-reviews-error {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  font-family: SFREGULAR;
+  color: rgb(200, 200, 200);
+}
+
+@media screen and (max-width: 1400px) {
+  #watch-design,
+  #watch-reviews {
+    display: flex;
+    flex-direction: column;
+    padding-inline: 15px;
+    box-sizing: border-box;
+  }
+
+  #watch {
+    padding-inline: 0;
+    overflow: hidden;
+  }
+}

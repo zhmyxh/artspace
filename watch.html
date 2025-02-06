@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>Просмотр</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Официальный сайт ArtSpace" />
+    <meta name="author" content="ARTSPACE" />
+    <meta name="language" content="ru" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="robots" content="index, follow" />
+    <link rel="shortcut icon" href="static/images/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/design.css" />
+    <link rel="stylesheet" href="styles/reviews.css" />
+    <link rel="stylesheet" href="styles/watch.css" />
+    <link rel="stylesheet" href="styles/adaptation.css" />
+    <link rel="stylesheet" href="styles/templates.css" />
+    <link rel="stylesheet" href="styles/icons-styles.css" />
+  </head>
+  <body>
+    <div id="navigation-menu" class="display-flex jc-space-between align-items">
+      <div id="navigation-direction" class="display-flex align-items jc-center">
+        <div id="navigation-open" class="display-flex align-items jc-center">
+            <div id="menu-open-button" class="display-flex align-items jc-center">
+              <div class="icon" id="menu-open-icon"></div>
+            </div>
+          </div>
+        <div id="navigation-logo" class="display-flex align-items jc-center">
+          <div class="icon" id="logo"></div>
+      </div>
+      </div>
+      <div id="navigation-search" class="display-flex jc-center">
+        <div id="search-block" class="display-flex align-items">
+          <input title="Поиск по сайту" id="search" name="search" type="text" placeholder="Поиск" maxlength="30" minlength="1" required />
+          <div id="search-button"><div id="search-icon" class="icon"></div></div>
+        </div>
+      </div>
+      <div id="navigation-profile" class="display-flex jc-right align-items">
+      </div>
+    </div>
+    <div id="content" class="display-flex jc-center">
+      <div id="watch" class="watch">
+        <div id="watch-design">
+          <div id="watch-design-section" class="display-flex flex-column">
+            <div id="watch-design-window" class="display-flex align-items">
+              <div id="watch-design-cover-loading" class="loader"></div>
+              <img id="watch-design-cover" />
+              <img id="watch-design-light" />
+            </div>
+           
+            <div id="watch-design-info">
+            <div id="watch-design-info-block" class="display-flex flex-column">
+              <div id="watch-design-content" class="display-flex align-items">
+                <div
+                  class="watch-design-author display-flex align-items jc-center">
+                  <img class="watch-design-author-icon" id="watch-design-author-icon" src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" />
+                </div>
+                <div
+                  class="watch-design-info-text display-flex flex-column jc-center">
+                  <span class="watch-design-header" id="watch-design-header">...</span>
+                  <a class="empty-link" href="">
+                    <div class="watch-design-author-block display-flex">
+                      <span class="watch-design-author-name" id="watch-design-author-name">...</span>
+                      <div class="watch-design-user-verification-status display-flex align-items" id="watch-design-user-verification-status"></div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div id="watch-design-data" class="display-flex align-items">
+                <span id="watch-design-date">00.00.0000</span>
+                <span id="watch-design-views">... просмотров</span>
+              </div>
+              <div id="watch-design-bio" class="display-flex flex-column">
+                <span id="watch-design-bio-text">
+                  Дизайн демонстрирует оригинальность и внимание к деталям. Нам
+                  особенно нравятся гармоничные цветовые сочетания и продуманное
+                  расположение элементов для создания целостного образа.
+                  Отличные идеи и их качественное воплощение делают этот проект
+                  привлекательным и функциональным.
+                </span>
+              </div>
+              <div id="watch-design-tags" class="display-flex align-items"></div>
+            </div>
+          </div>
+        </div>
+          <div id="watch-rating" class="display-flex flex-column">
+            <div id="watch-rater" class="display-flex flex-column">
+              <div id="watch-rater-top-section" class="display-flex align-items jc-space-between">
+                <span id="watch-rater-top-header">РЕЙТЕР</span>
+                <div class="watch-rater-top-buttons display-flex align-items">
+                  <div id="rater-info-button" class="rater-top-button">
+                    <div class="icon" id="rater-info-icon"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="line" style="margin-block: 0"></div>
+              <div id="watch-rater-secondary" class="display-flex flex-column">
+                <div class="watch-rater-rate-block display-flex flex-column">
+                  <div class="watch-rater-header display-flex jc-space-between">
+                    <span class="watch-rater-crit-name watch-rater-crit-text">Техника исполнения</span>
+                    <span class="watch-rater-crit-mark watch-rater-crit-text" id="rater-mark-T">1</span>
+                  </div>
+                  <input type="range" class="watch-rater-range" id="watch-rater-rate-T" step="1" min="1" value="1" max="10" />
+                </div>
+                <div class="watch-rater-rate-block display-flex flex-column">
+                  <div class="watch-rater-header display-flex jc-space-between">
+                    <span class="watch-rater-crit-name watch-rater-crit-text">Визуальная целостность</span>
+                    <span class="watch-rater-crit-mark watch-rater-crit-text" id="rater-mark-V">1</span>
+                  </div>
+                  <input type="range" class="watch-rater-range" id="watch-rater-rate-V" step="1" min="1" value="1" max="10" />
+                </div>
+                <div class="watch-rater-rate-block display-flex flex-column">
+                  <div class="watch-rater-header display-flex jc-space-between">
+                    <span class="watch-rater-crit-name watch-rater-crit-text">Сложность стиля</span>
+                    <span class="watch-rater-crit-mark watch-rater-crit-text" id="rater-mark-D">1</span>
+                  </div>
+                  <input type="range" class="watch-rater-range" id="watch-rater-rate-D" step="1" min="1" value="1" max="10" />
+                </div>
+                <div class="watch-rater-rate-block display-flex flex-column">
+                  <div class="watch-rater-header display-flex jc-space-between">
+                    <span class="watch-rater-crit-name watch-rater-crit-text">Концепция</span>
+                    <span class="watch-rater-crit-mark watch-rater-crit-text" id="rater-mark-C">1</span>
+                  </div>
+                  <input type="range" class="watch-rater-range" id="watch-rater-rate-C" step="1" min="1" value="1" max="10" />
+                </div>
+              </div>
+              <div class="line" style="margin-block: 0"></div>
+              <div id="watch-rater-paramount">
+                <div class="watch-rater-rate-block display-flex flex-column">
+                  <div class="watch-rater-header display-flex jc-space-between">
+                    <span class="watch-rater-crit-name watch-rater-crit-text">Оригинальность</span>
+                    <span class="watch-rater-crit-mark watch-rater-crit-text" id="rater-mark-OC">1</span>
+                  </div>
+                  <input type="range" class="watch-rater-range" id="watch-rater-rate-OC" step="1" min="1" value="1" max="5" />
+                </div>
+                <div class="watch-rater-rate-block display-flex flex-column">
+                  <div class="watch-rater-header display-flex jc-space-between">
+                    <span class="watch-rater-crit-name watch-rater-crit-text">Общее впечатление</span>
+                    <span class="watch-rater-crit-mark watch-rater-crit-text" id="rater-mark-TI">1</span>
+                  </div>
+                  <input type="range" class="watch-rater-range" id="watch-rater-rate-TI" step="1" min="1" value="1" max="5" />
+                </div>
+              </div>
+              <div class="line" style="margin-block: 0"></div>
+              <div
+                id="watch-rater-bottom-section"
+                class="display-flex align-items jc-space-between">
+                <div id="watch-rater-rating" class="display-flex align-items">
+                  <div id="watch-rater-total">
+                    <span id="watch-rater-total-rate">78</span>
+                    <span id="watch-rater-total-max">/ 100</span>
+                  </div>
+                  <div class="watch-crits-rater display-flex align-items">
+                    <span class="watch-rate-crit" id="rater-T">1</span>
+                    <span class="watch-rate-crit" id="rater-V">1</span>
+                    <span class="watch-rate-crit" id="rater-D">1</span>
+                    <span class="watch-rate-crit" id="rater-C">1</span>
+                    <span class="watch-rate-crit watch-rate-crit-OC" id="rater-OC">1</span>
+                    <span class="watch-rate-crit watch-rate-crit-TI" id="rater-TI">1</span>
+                  </div>
+                </div>
+                <div id="watch-rater-confirm-section">
+                  <div class="transparent-button display-flex align-items" id="watch-rater-public-button">
+                    <span class="button-text">Далее</span>
+                    <div class="icon" id="publish-rater-icon"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="watch-rates" class="display-flex align-items">
+              <div class="watch-rate-block display-flex flex-column align-items" id="watch-rate-profies">
+                <div class="icon" id="profies-icon"></div>
+                <span class="watch-rate-header">Оценка профи</span>
+                <div class="line" style="margin-block: 5px"></div>
+                <div class="watch-rate-crits display-flex align-items jc-center">
+                  <span class="watch-rate-crit-total" id="profie-TOTAL"></span>
+                </div>
+              </div>
+              <div class="watch-rate-block display-flex flex-column align-items" id="watch-rate-community">
+                <div class="icon" id="community-icon"></div>
+                <span class="watch-rate-header">Оценка сообщества</span>
+                <div class="line" style="margin-block: 5px"></div>
+                <div class="watch-rate-crits display-flex align-items jc-center">
+                  <span class="watch-rate-crit-total" id="community-TOTAL"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="watch-bottom-section">
+          <div class="transitional-header-block">
+            <span class="transitional-header-text">Рецензии</span>
+          </div>
+          <div id="watch-reviews" class="watch-reviews"></div>
+        </div>
+      </div>
+    </div>
+    <div id="footer" class="display-flex jc-center flex-column align-items"></div>
+    <script lang="javascript" type="module" src="javascript/app.js"></script>
+    <script lang="javascript" type="module" src="javascript/app_elements.js"></script>
+    <script lang="javascript" type="module" src="javascript/app_watch.js"></script>
+  </body>
+</html>

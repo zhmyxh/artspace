@@ -1,0 +1,231 @@
+[
+    {
+        "id": 1,
+        "name": "random",
+        "cover": "https://cdn.theanimegallery.com/theanimegallery/0b8c9a1a-f67c-4a43-8bb6-7817dfcfbbea-dark-anime-wallpaper-4k.webp",
+        "author": {
+            "id": 1,
+            "username": "user",
+            "image": "https://cdn-icons-png.flaticon.com/512/3135/3135715.png",
+            "verify": true
+        },
+        "rate": {
+            "profies": 76,
+            "community": 79
+        },
+        "date": "21.01.2025",
+        "bio": "Дизайн демонстрирует оригинальность и внимание к деталям. Нам особенно нравятся гармоничные цветовые сочетания и продуманное расположение элементов для создания целостного образа. Отличные идеи и их качественное воплощение делают этот проект привлекательным и функциональным.",
+        "tags": [
+            "tag1",
+            "tag2"
+        ],
+        "views": 158
+    },
+    {
+        "id": 2,
+        "name": "apple",
+        "cover": "https://plus.unsplash.com/premium_photo-1686729237226-0f2edb1e8970?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8d2FsbHBhcGVyfGVufDB8fDB8fHww",
+        "author": {
+            "id": 21,
+            "username": "unknown",
+            "image": "https://cdn-icons-png.flaticon.com/512/3135/3135715.png",
+            "verify": true
+        },
+        "rate": {
+            "profies": 68,
+            "community": 65
+        },
+        "date": "13.02.2024",
+        "bio": "lorem ipsum",
+        "tags": [
+            "tag1",
+            "3d"
+        ],
+        "views": 336
+    },
+    {
+        "id": 3,
+        "name": "orange",
+        "cover": "https://cdn.pixabay.com/photo/2016/09/26/14/15/background-1696064_640.jpg",
+        "author": {
+            "id": 32,
+            "username": "user2",
+            "image": "https://cdn-icons-png.flaticon.com/512/3135/3135715.png",
+            "verify": false
+        },
+        "rate": {
+            "profies": 87,
+            "community": 89
+        },
+        "date": "25.05.2024",
+        "bio": "lorem ipsum",
+        "tags": [
+            "tag1",
+            "tag2"
+        ],
+        "views": 95
+    },
+    {
+        "id": 4,
+        "name": "white",
+        "cover": "https://cdn.pixabay.com/photo/2016/09/26/14/15/background-1696064_640.jpg",
+        "author": {
+            "id": 41,
+            "username": "noname",
+            "image": "https://cdn-icons-png.flaticon.com/512/3135/3135715.png",
+            "verify": false
+        },
+        "rate": {
+            "profies": 58,
+            "community": 66
+        },
+        "date": "30.02.2024",
+        "bio": "lorem ipsum",
+        "tags": [
+            "tag1",
+            "tag2",
+            "tag3",
+            "tag4",
+            "tag5",
+            "tag6",
+            "tag7",
+            "tag8",
+            "tag9"
+        ],
+        "views": 15
+    },
+    {
+        "id": 5,
+        "name": "watermelon",
+        "cover": "https://img.freepik.com/free-vector/blue-curve-background_53876-113112.jpg",
+        "author": {
+            "id": 86,
+            "username": "melon",
+            "image": "https://cdn-icons-png.flaticon.com/512/3135/3135715.png",
+            "verify": true
+        },
+        "rate": {
+            "profies": 79,
+            "community": 89
+        },
+        "date": "19.08.2024",
+        "bio": "lorem ipsum",
+        "tags": [
+            "wwwwwwwwww",
+            "wwwwwwwwww",
+            "wwwwwwwwww"
+        ],
+        "views": 26444
+    },
+    {
+        "id": 6,
+        "name": "banana",
+        "cover": "https://img.freepik.com/premium-photo/colorful-background-with-yellow-blue-geometric-pattern_481527-25413.jpg",
+        "author": {
+            "id": 12,
+            "username": "fruit",
+            "image": "https://preview.redd.it/bwog50sjaf7d1.jpg?width=640&crop=smart&auto=webp&s=597ee45fa41e2e66626ae98c3da122949dcda7a4",
+            "verify": false
+        },
+        "rate": {
+            "profies": 58,
+            "community": 54
+        },
+        "date": "25.03.2024",
+        "bio": "lorem ipsum",
+        "tags": [
+            "foryoubaby"
+        ],
+        "views": 45890
+    },
+    {
+        "id": 7,
+        "name": "test",
+        "cover": "https://img.freepik.com/premium-photo/colorful-background-with-yellow-blue-geometric-pattern_481527-25413.jpg",
+        "author": {
+            "id": 178,
+            "username": "user",
+            "image": "https://cdn-icons-png.flaticon.com/512/3135/3135715.png",
+            "verify": true
+        },
+        "rate": {
+            "profies": 58,
+            "community": 54
+        },
+        "date": "25.03.2024",
+        "bio": "lorem ipsum",
+        "tags": [
+            "art",
+            "glassmorphism"
+        ],
+        "views": 100
+    },
+    {
+        "id": 8,
+        "name": "test",
+        "cover": "https://img.freepik.com/premium-photo/colorful-background-with-yellow-blue-geometric-pattern_481527-25413.jpg",
+        "author": {
+            "id": 32,
+            "username": "user",
+            "image": "https://cdn-icons-png.flaticon.com/512/3135/3135715.png",
+            "verify": true
+        },
+        "rate": {
+            "profies": 58,
+            "community": 54
+        },
+        "date": "25.03.2024",
+        "bio": "lorem ipsum",
+        "tags": [
+            "art"
+        ],
+        "views": 100
+    },
+    {
+        "id": 9,
+        "name": "astronaut",
+        "cover": "https://wallpapercat.com/w/full/1/d/3/5818397.jpg",
+        "author": {
+            "id": 623,
+            "username": "user",
+            "image": "https://cdn-icons-png.flaticon.com/512/3135/3135715.png",
+            "verify": true
+        },
+        "rate": {
+            "profies": 58,
+            "community": 54
+        },
+        "date": "25.03.2024",
+        "bio": "lorem ipsum",
+        "tags": [
+            "art",
+            "3d",
+            "design",
+            "super",
+            "sigma",
+            "bebra"
+        ],
+        "views": 100
+    },
+    {
+        "id": 10,
+        "name": "nothing",
+        "cover": "https://img.freepik.com/premium-photo/photo-cloud_1087825-3878.jpg?semt=ais_hybrid",
+        "author": {
+            "id": 623,
+            "username": "noname",
+            "image": "https://cdn-icons-png.flaticon.com/512/3135/3135715.png",
+            "verify": true
+        },
+        "rate": {
+            "profies": 28,
+            "community": 32
+        },
+        "date": "25.03.2024",
+        "bio": "lorem ipsum",
+        "tags": [
+            "3d"
+        ],
+        "views": 234
+    }
+]

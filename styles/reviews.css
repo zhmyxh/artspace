@@ -1,0 +1,217 @@
+.review-block {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 100%;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.review-post {
+  display: flex;
+  flex-direction: column;
+  background-color: #1c1c1c;
+  padding: 20px;
+  border-radius: 20px;
+  gap: 15px;
+  width: 100%;
+  align-items: start;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.review-info a {
+  text-decoration: none;
+}
+
+.review-info,
+.review-author {
+  gap: 10px;
+}
+
+.review-design {
+  position: relative;
+  width: 100%;
+  gap: 5px;
+}
+
+.review-design-cover {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 15px;
+  z-index: 1;
+}
+
+.review-design-light {
+  position: absolute;
+  opacity: 50%;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 200px;
+  z-index: 0;
+  object-fit: cover;
+  border-radius: 15px;
+  filter: blur(50px);
+}
+
+.review-read-all-link {
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
+  margin-left: 5px;
+  text-decoration: none;
+}
+
+.review-read-all-link:hover {
+  text-decoration: underline;
+}
+
+.review-header-text {
+  font-family: SFBOLD;
+  color: white;
+  font-size: 16px;
+}
+
+.review-author-block {
+  gap: 4px;
+}
+
+.review-text-block {
+  gap: 2px;
+}
+
+.review-header {
+  font-family: SFBOLD;
+  font-size: 16px;
+}
+
+.review-author-name {
+  font-family: SFMEDIUM;
+  font-size: 14px;
+  color: rgb(200, 200, 200);
+}
+
+.review-header,
+.review-author-name {
+  line-height: 20px;
+}
+
+.review-date {
+  font-family: SFREGULAR;
+  font-size: 14px;
+  color: rgb(200, 200, 200);
+}
+
+.review-author-name,
+.review-date {
+  line-height: 20px;
+}
+
+.review-text {
+  font-family: SFREGULAR;
+  font-size: 16px;
+  line-height: 1.3em;
+  border-left: 2px solid #313131;
+  padding-left: 15px;
+  margin-block: 10px;
+  z-index: 1;
+  color: #b6b6b6;
+}
+
+.review-design-author {
+  position: absolute;
+  backdrop-filter: blur(30px);
+  bottom: 15px;
+  left: 10px;
+  border-radius: 30px;
+  padding-inline: 15px;
+  padding-block: 5px;
+  z-index: 1;
+}
+
+.review-design-author-name {
+  font-family: SFREGULAR;
+  font-size: 14px;
+  text-decoration: none;
+  color: rgb(200, 200, 200);
+}
+
+.review-design-author-name a {
+  font-family: SFMEDIUM;
+  text-decoration: none;
+  color: rgb(200, 200, 200);
+}
+
+.review-rate-block {
+  gap: 10px;
+  z-index: 1;
+}
+
+.review-rate-block {
+  width: 100%;
+}
+
+.review-rate-header-text {
+  font-family: SFBOLD;
+  font-size: 18px;
+  color: white;
+}
+
+.review-rate-crits {
+  background-color: rgb(45, 45, 45);
+  border-radius: 30px;
+  padding-block: 5px;
+  padding-inline: 15px;
+  gap: 10px;
+}
+
+.review-crits-for-rate {
+  gap: 5px;
+}
+
+.review-crit {
+  font-family: SFMEDIUM;
+  font-size: 14px;
+  color: rgb(200, 200, 200);
+}
+
+.review-crit-OC {
+  color: rgb(255, 77, 77);
+}
+
+.review-crit-TI {
+  color: rgb(193, 77, 255);
+}
+
+.review-rate-total {
+  font-family: SFBOLD;
+  font-size: 24px;
+  color: white;
+}
+
+@media screen and (max-width: 1400px) {
+  .review-block {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .review-block {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  #f-review {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .review-rate-header-text {
+    font-size: 16px;
+  }
+}

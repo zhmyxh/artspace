@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>Дизайны</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Официальный сайт ArtSpace" />
+    <meta name="author" content="ARTSPACE" />
+    <meta name="language" content="ru" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="robots" content="index, follow" />
+    <link rel="shortcut icon" href="static/images/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/design.css" />
+    <link rel="stylesheet" href="styles/adaptation.css" />
+    <link rel="stylesheet" href="styles/templates.css" />
+    <link rel="stylesheet" href="styles/icons-styles.css" />
+  </head>
+  <body>
+    <div id="navigation-menu" class="display-flex jc-space-between align-items">
+      <div id="navigation-direction" class="display-flex align-items jc-center">
+        <div id="navigation-open" class="display-flex align-items jc-center">
+            <div id="menu-open-button" class="display-flex align-items jc-center">
+              <div class="icon" id="menu-open-icon"></div>
+            </div>
+          </div>
+        <div id="navigation-logo" class="display-flex align-items jc-center">
+          <div class="icon" id="logo"></div>
+      </div>
+      </div>
+      <div id="navigation-search" class="display-flex jc-center">
+        <div id="search-block" class="display-flex align-items">
+          <input title="Поиск по сайту" id="search" name="search" type="text" placeholder="Поиск" maxlength="30" minlength="1" required />
+          <div id="search-button"><div id="search-icon" class="icon"></div></div>
+        </div>
+      </div>
+      <div id="navigation-profile" class="display-flex jc-right align-items">
+      </div>
+    </div>
+    <div id="content" class="display-flex jc-center">
+      <div id="feed" class="feed display-flex flex-column">
+        <div id="feed-designs" class="feed-content display-flex jc-center align-items feed-section flex-column">
+          <div class="transitional-header-block">
+            <span class="transitional-header-text">Дизайны</span>
+          </div>
+          <div class="top-section display-flex">
+            <div class="filters" id="f-design">
+              <div id="filter-name-section" class="filter-section display-flex align-items">
+                <div class="icon" id="filters-name-icon"></div>
+                <input type="text" class="filter-input" name="filter-search" id="filter-search" placeholder="Поиск по названию"/>
+              </div>
+              <div id="filter-tags-section" class="filter-section display-flex align-items">
+                <div class="icon" id="filters-tags-icon"></div>
+                <input type="text" class="filter-input" name="filter-tags" id="filter-tags" maxlength="200" placeholder="Поиск по тегам"/>
+              </div>
+              <div id="filters-select" class="filter-section display-flex align-items">
+                <div class="icon display-flex align-items" id="filters-icon"></div>
+                <div id="filter-selected-block" class="display-flex align-items">
+                  <span id="filter-selected-text">Фильтр: Новинки</span>
+                </div>
+                <div id="filter-select-button" class="classic-button">
+                  <div class="icon" id="filter-select-icon"></div>
+                </div>
+                <div id="filters-select-list" class="display-flex flex-column hidden">
+                  <div class="filter-select-variant">
+                    <input type="radio" name="filter-option" id="filter-popular" class="filter-select-input" value="popular"/>
+                    <label class="filter-select-text" for="filter-popular">Популярное</label>
+                  </div>
+                  <div class="filter-select-variant">
+                    <input type="radio" name="filter-option" id="filter-best-c" class="filter-select-input" value="best-c"/>
+                    <label class="filter-select-text" for="filter-best-c">Лучшее (сообщество)</label>
+                  </div>
+                  <div class="filter-select-variant">
+                    <input type="radio" name="filter-option" id="filter-best-p" class="filter-select-input" value="best-p"/>
+                    <label class="filter-select-text" for="filter-best-p">Лучшее (профи)</label>
+                  </div>
+                  <div class="filter-select-variant">
+                    <input type="radio" name="filter-option" id="filter-new" class="filter-select-input" value="new" checked/>
+                    <label class="filter-select-text" for="filter-new">Новинки</label>
+                  </div>
+                  <div class="filter-select-variant">
+                    <input type="radio" name="filter-option" id="filter-old" class="filter-select-input" value="old"/>
+                    <label class="filter-select-text" for="filter-old">Старые</label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="line"></div>
+          <div class="design-block" id="designs-block"></div>
+        </div>
+      </div>
+    </div>
+    <div id="footer" class="display-flex jc-center flex-column align-items"></div>
+    <script lang="javascript" type="module" src="javascript/app.js"></script>
+    <script lang="javascript" type="module" src="javascript/app_elements.js"></script>
+  </body>
+</html>
